@@ -5,21 +5,21 @@
       "message": "Changed hard drive on workstation A",
       "attention": false,
       "date": "03-02-2019",
-      "tect": "Sam Smith"
+      "tech": "Sam Smith"
     },
     {
       "id": 2,
       "message": "Workstation B not posting",
       "attention": true,
       "date": "03-03-2019",
-      "tect": "Sam Smith"
+      "tech": "Sam Smith"
     },
     {
       "id": 3,
       "message": "Bad RAM on Workstation D",
       "attention": true,
       "date": "03-02-2019",
-      "tect": "Sara Wilson"
+      "tech": "Sara Wilson"
     }
   ],
   "techs": [
