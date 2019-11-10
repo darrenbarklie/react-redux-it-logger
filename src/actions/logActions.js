@@ -1,6 +1,6 @@
 import { SET_LOADING, GET_LOGS, LOGS_ERROR } from './types'
 
-// Get logs
+// Get logs from server
 export const getLogs = () => async dispatch => {
   try {
     const res = await fetch('/logs')
