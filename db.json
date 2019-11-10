@@ -22,11 +22,11 @@
       "tech": "Sara Wilson"
     },
     {
-      "message": "Changed network on Server 007",
+      "id": 4,
+      "message": "Tester",
       "attention": true,
       "tech": "Jane Doe",
-      "date": "2019-11-10T17:36:30.018Z",
-      "id": 4
+      "date": "2019-11-10T18:57:11.952Z"
     }
   ],
   "techs": [
