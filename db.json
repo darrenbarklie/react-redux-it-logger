@@ -27,13 +27,6 @@
       "tech": "Jane Doe",
       "date": "2019-11-10T17:36:30.018Z",
       "id": 4
-    },
-    {
-      "message": "Hard Drive failed in Workstartion 00-2",
-      "attention": false,
-      "tech": "Sam Smith",
-      "date": "2019-11-10T17:37:55.044Z",
-      "id": 5
     }
   ],
   "techs": [
