@@ -1,4 +1,7 @@
 import React, { Fragment, useEffect } from 'react'
+import { Provider } from 'react-redux'
+import store from './store'
+
 import SearchBar from './components/layout/SearchBar'
 import Logs from './components/logs/Logs'
 import AddButton from './components/layout/AddButton'
@@ -18,19 +21,21 @@ const App = () => {
   })
 
   return (
-    <div className="App">
-      <Fragment>
-        <SearchBar />
-        <div className="container">
-          <AddButton />
-          <AddLogModal />
-          <EditLogModal />
-          <EditTechModal />
-          <TechListModal />
-          <Logs />
-        </div>
-      </Fragment>
-    </div>
+    <Provider store={store}>
+      <div className="App">
+        <Fragment>
+          <SearchBar />
+          <div className="container">
+            <AddButton />
+            <AddLogModal />
+            <EditLogModal />
+            <EditTechModal />
+            <TechListModal />
+            <Logs />
+          </div>
+        </Fragment>
+      </div>
+    </Provider>
   )
 }
 
